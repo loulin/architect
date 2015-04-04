@@ -2,6 +2,7 @@
 
 # Integration
 
-# Regression
+# Continuous Integration
+Regression
 
 # Test Runner

@@ -1,6 +1,9 @@
 # Config
 Use js config module instead of json/yaml/xml config file
-Examples:
+
+Use nconf
+
+## Examples:
 config.development.js
 ```javascript
 module.exports = {

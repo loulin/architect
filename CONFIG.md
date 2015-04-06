@@ -1,5 +1,5 @@
 # Config
-Use js config module instead of json/yaml/xml config file
+Config module is flexible for Node.js, while json/yaml/xml config file is platform independant.
 
 Use nconf
 

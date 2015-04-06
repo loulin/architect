@@ -1,6 +1,6 @@
 # Load Balance
 
-## Node.js cluster module
+## Node.js cluster module (experimental)
 
 ```javascript
 var cluster = require('cluster');  
@@ -36,7 +36,14 @@ process.on('message', function(message) {
 });
 ```
 
-## Load Balance Server
+## Supervisor
+
+## forever
+
+## Load Balance Server (preferred)
 Nginx / Cloud LBS
+
+# Deploy
+[Chef](https://www.chef.io/chef/) turns infrastructure into code
 
 # Profiling

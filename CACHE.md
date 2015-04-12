@@ -1,5 +1,0 @@
-# Redis
-
-# Mongo
-
-# Memcache

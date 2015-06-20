@@ -11,7 +11,25 @@ $ node debug app.js
 $ npm -g i node-inspector
 $ node-debug app.js
 ```
+
 [webkit-devtools-agent](https://www.npmjs.com/package/webkit-devtools-agent) covers Devtools-based heap and CPU profiling
+
+For script started with debug option:
+```shell
+$ node --debug app.js
+# or pause on the first line
+$ node --debug-brk app.js
+$ node-inspector &
+```
+For running node
+```
+$ pgrep -l node 
+# or
+$ ps -ef | grep node
+$ kill -s USR1 <pid>
+$ node-inspector &
+```
+[Reference](http://blog.nodeknockout.com/post/34843655876/debugging-with-node-inspector)
 
 ## Debug logs
 enable core API debug
@@ -36,6 +54,8 @@ $ DEBUG=* node app.js
 $ DEBUG=tag:* node app.js
 $ DEBUG=tag:info node app.js
 ```
+
+add `debugger` in the code
 
 ## Stack traces
 - `$ node -e "console.log('abc');"` node shell

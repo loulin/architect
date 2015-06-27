@@ -23,12 +23,11 @@ if (cluster.isMaster) {
 
 ## [PM2 Built-in clustering](https://github.com/Unitech/pm2)
 
-`pm2 start app.js -i <number of workers>|max` pm2 auto restarts died workers.
-`-i 0` is equal to `-i <number of cpu cores>`
-`pm2 reload app.js` restarts the workers one by one.
-`pm2 gracefulReload app.js` sends a shutdown signal via IPC.
-`pm2 stop app.js`
-`pm2 startup systemd` generate a service to restart pm2.
+* `pm2 start app.js -i <number of workers>|max` pm2 auto restarts died workers. `-i 0` is equal to `-i <number of cpu cores>`
+* `pm2 stop app.js`
+* `pm2 startup systemd` generate a service to restart pm2.
+* `pm2 reload app.js` restarts the workers one by one.
+* `pm2 gracefulReload app.js` sends a shutdown signal via IPC.
 ```javascript
 process.on('message', function(message) {  
   if (message === 'shutdown') {

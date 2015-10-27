@@ -36,6 +36,11 @@ process.on('message', function(message) {
   }
 });
 ```
+* [npm integretion](http://www.technology-ebay.de/the-teams/mobile-de/blog/nodejs-real-world)
+```bash
+"start": "pm2 start server.js --name $npm_package_name --log-date-format 'DD-MM HH:mm:ss.SSS'",
+"stop": "pkill -9 PM2 || true",
+```
 
 ## Supervisor
 

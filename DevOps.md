@@ -53,3 +53,4 @@ Nginx / Cloud LBS
 [Chef](https://www.chef.io/chef/) turns infrastructure into code
 
 # Profiling
+JMeter for stress test

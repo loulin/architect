@@ -1,0 +1,1 @@
+- [Service Discovery with etcd and Node.js](http://lukebond.ghost.io/service-discovery-with-etcd-and-node-js/)

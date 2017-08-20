@@ -70,6 +70,7 @@
 * https://github.com/h5bp/Front-end-Developer-Interview-Questions
 * https://github.com/donnemartin/system-design-primer
 * https://benmccormick.org/2017/07/19/ten-things-javascript/
+* https://github.com/denysdovhan/wtfjs
 * http://blog.knownsec.com/Knownsec_RD_Checklist/v3.0.html
 * https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions
 * http://www.zhihu.com/question/24648388

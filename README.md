@@ -68,6 +68,7 @@
 * https://github.com/jimuyouyou/node-interview-questions
 * https://github.com/bcherny/frontend-interview-questions
 * https://github.com/h5bp/Front-end-Developer-Interview-Questions
+* https://dev.to/arnavaggarwal/10-javascript-concepts-you-need-to-know-for-interviews
 * https://github.com/donnemartin/system-design-primer
 * https://benmccormick.org/2017/07/19/ten-things-javascript/
 * https://github.com/denysdovhan/wtfjs
